@@ -1,0 +1,35 @@
+# ───────────────────────────────────────────────────
+# OSINT Tool - Git Ignore
+# ───────────────────────────────────────────────────
+
+# Ambiente virtuale e cache Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+
+# Sistema Operativo macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Configurazione Locale e Sicurezza (CRITICO!)
+.env
+.env.local
+.env.*.local
+
+# Report Generati dall'utente (NON PUBBLICARE DATI REALI)
+Report/
+*.log
+*.txt
+*.html
+
+# Ambienti e Config IDE locali
+.vscode/
+.idea/
+.claude/
